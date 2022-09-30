@@ -148,5 +148,4 @@ class FakeCallForRetrofit<T> : Call<T> {
     override fun timeout(): Timeout {
         TODO("Not yet implemented")
     }
-
 }

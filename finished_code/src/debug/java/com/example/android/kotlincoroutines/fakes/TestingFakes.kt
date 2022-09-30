@@ -107,5 +107,4 @@ class MainNetworkCompletableFake() : MainNetwork {
         completable.completeExceptionally(throwable)
         completable = CompletableDeferred()
     }
-
 }
